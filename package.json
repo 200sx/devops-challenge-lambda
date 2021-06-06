@@ -1,0 +1,14 @@
+{
+  "name": "trendmicro_chellenge",
+  "version": "1.0.0",
+  "description": "hello world sample for Trend Micro / CloudConformity",
+  "main": "handler.js",
+  "scripts": {
+    "test": "nyc --reporter=text mocha app/test/*.js --recursive --timeout 300 --exit"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0"
+  }
+}
